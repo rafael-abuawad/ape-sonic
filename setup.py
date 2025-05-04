@@ -61,7 +61,9 @@ setup(
     author_email="admin@apeworx.io",
     url="https://github.com/ApeWorX/ape-sonic",
     include_package_data=True,
-    install_requires=[],
+    install_requires=[
+        "eth-ape>=0.8,<0.9"
+    ],
     python_requires=">=3.9,<4",
     extras_require=extras_require,
     py_modules=["ape_sonic"],
