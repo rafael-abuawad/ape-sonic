@@ -23,6 +23,6 @@ def test_mainnet_fork_configured():
 
 
 def test_custom_network():
-    data = {"apenet": {"required_confizrmations": 333}}
+    data = {"apenet": {"required_confirmations": 333}}
     obj = SonicConfig.model_validate(data)
     assert obj.apenet.required_confirmations == 333
