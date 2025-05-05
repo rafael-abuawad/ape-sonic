@@ -57,9 +57,9 @@ setup(
     description="""ape-sonic: Ape Ecosystem Plugin for Sonic""",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    author="ApeWorX Ltd.",
-    author_email="admin@apeworx.io",
-    url="https://github.com/ApeWorX/ape-sonic",
+    author="Rafael Abuawad",
+    author_email="rafael.abuawad@live.com",
+    url="https://github.com/rafael-abuawad/ape-sonic",
     include_package_data=True,
     install_requires=[
         "eth-ape>=0.8.18,<0.9",
